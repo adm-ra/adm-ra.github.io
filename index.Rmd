@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-# Adam Rosenfeld, MPH
+## Adam Rosenfeld, MPH
 
-(This is me)
+## (This is me)
 <img src="images/professional.png" style="width:75%">
