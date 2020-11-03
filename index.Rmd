@@ -9,4 +9,4 @@ output:
 
 # Adam Rosenfeld, MPH
 
-<img src="/Users/adamrosenfeld/Desktop/GRAD SCHOOL/Semester 3/Data Science/images" style="width:75%">
+<img src="images/professional.png" style="width:75%">
