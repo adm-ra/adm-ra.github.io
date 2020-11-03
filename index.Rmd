@@ -9,6 +9,6 @@ output:
 
 ## Adam Rosenfeld, MPH
 
-### (This is me)
+### (This is what I look like)
 <img src="images/professional.png" style="width:75%">
 

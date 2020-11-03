@@ -8,3 +8,5 @@ output:
 ---
 
 ## Things to know 
+
+I'm slowly getting better at Data Science.
