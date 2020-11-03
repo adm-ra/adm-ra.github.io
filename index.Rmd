@@ -1,0 +1,12 @@
+---
+title: "Adam's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Adam Rosenfeld, MPH
+
+<img src="/Users/adamrosenfeld/Desktop/GRAD SCHOOL/Semester 3/Data Science/images" style="width:75%">
