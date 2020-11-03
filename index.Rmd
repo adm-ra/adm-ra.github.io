@@ -9,4 +9,5 @@ output:
 
 # Adam Rosenfeld, MPH
 
+(This is me)
 <img src="images/professional.png" style="width:75%">
