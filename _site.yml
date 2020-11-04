@@ -9,6 +9,8 @@ navbar:
       href: mailto:<adam.r@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/adm-ra/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/adam-rosenfeld/
 output:
   html_document:
-    theme: cosmo
+    theme: yeti

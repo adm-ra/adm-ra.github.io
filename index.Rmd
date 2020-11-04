@@ -1,13 +1,15 @@
 ---
-title: "Adam's Personal Website"
+title: "Adam Rosenfeld, MPH"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-## Adam Rosenfeld, MPH
+## Welcome! 
+
+This is the personal website of Adam Rosenfeld.
 
 ### (This is what I look like)
-<img src="images/professional.png" style="width:75%">
+<img src="images/professional.png" style="width:50%">
 
