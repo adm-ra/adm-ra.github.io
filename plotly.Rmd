@@ -17,21 +17,37 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r message = FALSE}
+```{r message = FALSE, include = FALSE}
 data("instacart")
 
 instacart = 
   instacart %>% 
-  slice_sample(n = 100000)
+  slice_sample(n = 1000)
 ```
 
 
 ```{r warning = FALSE}
-instacart %>%  
+yax_title = list(title = "Number of Purchases")
+xax_title = list(title = "Instacart Departments")
+
+purchase_bar = 
+  instacart %>%  
   count(department) %>% 
-  mutate(department = fct_reorder(department, n)) %>% 
-  plot_ly(
-    x = ~department, y = ~n, color = ~department, colors = "viridis", type = "bar")
+  mutate(
+    department = fct_reorder(department, n)
+    ) %>% 
+  plot_ly(x = ~department, y = ~n, color = ~department, colors = "viridis", type = "bar") %>% 
+  layout(yaxis = yax_title, xaxis = xax_title)
+
+purchase_bar
 ```
 
+```{r}
+time_order = 
+  instacart %>%  
+  group_by(order_hour_of_day) %>% 
+  plot_ly(x = ~days_since_prior_order, y = ~order_number, color = ~department, colors = "viridis", type = "scatter")
+
+time_order
+```
 
