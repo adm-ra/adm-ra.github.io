@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About Me"
 output: 
   html_document:
     toc: true
@@ -53,12 +53,6 @@ May 2016 – January 2017
 *ESL Teacher*
 
 Sep. 2014 – Jan. 2016
-
-## Fun Facts About Me
-
-1. I'm slowly getting better at Data Science.
-2. I lived in Shanghai, China for 9 months.
-3. My favorite author is Neil Gaiman.
 
 ## Interests
 

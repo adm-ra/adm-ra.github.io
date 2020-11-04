@@ -8,9 +8,11 @@ output:
 
 # Welcome! 
 
-This is the personal website of Adam Rosenfeld (aka me). 
+<p align="center">
+<img align="center" src="images/professional.png" style="width:35%">
+</p>
 
-## Currently Busy With:
+## Currently Busy With
 
 The second year of my Master of Public Health degree at Columbia University Mailman School of Public Health.
 
@@ -18,12 +20,24 @@ The second year of my Master of Public Health degree at Columbia University Mail
 
 I also work part-time as a Graduate Research Assistant and Graduate Teaching Assistant (feel free to check out my resume on my "About" page).
 
-## Currently Living In:
+## Current Interests
 
-New York City! 
+#### Research/Academic
 
-<img src="images/nyc.jpeg" style="width:100%">
+1. Statistical Analysis/Data Science
+2. Mental health and applications of behavioral psychology
+3. Healthcare policy
 
-### Currently Looking Like:
-<img src="images/professional.png" style="width:50%">
+#### Personal
+
+1. Breaking a 21-minute 5k
+2. Reading at least 3 more books before 2021
+3. Getting better at R (and hopefully picking up Python soon)
+
+## Currently Living In
+
+New York City
+
+<img align="center" src="images/nyc.jpeg" style="width:100%">
+
 
