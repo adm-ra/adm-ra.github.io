@@ -1,15 +1,29 @@
 ---
-title: "Adam Rosenfeld, MPH"
+title: "Adam Rosenfeld"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-## Welcome! 
+# Welcome! 
 
-This is the personal website of Adam Rosenfeld.
+This is the personal website of Adam Rosenfeld (aka me). 
 
-### (This is what I look like)
+## Currently Busy With:
+
+The second year of my Master of Public Health degree at Columbia University Mailman School of Public Health.
+
+<img src="images/mailman.jpg" style="width:100%">
+
+I also work part-time as a Graduate Research Assistant and Graduate Teaching Assistant (feel free to check out my resume on my "About" page).
+
+## Currently Living In:
+
+New York City! 
+
+<img src="images/nyc.jpeg" style="width:100%">
+
+### Currently Looking Like:
 <img src="images/professional.png" style="width:50%">
 
