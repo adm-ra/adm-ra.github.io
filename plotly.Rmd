@@ -42,12 +42,16 @@ purchase_bar =
 purchase_bar
 ```
 
-```{r}
+```{r message = FALSE}
 time_order = 
   instacart %>%  
   group_by(order_hour_of_day) %>% 
   plot_ly(x = ~days_since_prior_order, y = ~order_number, color = ~department, colors = "viridis", type = "scatter")
 
 time_order
+```
+
+```{r}
+
 ```
 

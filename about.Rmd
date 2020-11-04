@@ -1,22 +1,30 @@
 ---
-title: "About Me"
+title: "**About Me**"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-## Education
+<hr>
 
-**Columbia University Mailman School of Public Health**
+## *Education*
 
-Master of Public Health | Sociomedical Sciences, Certificate in Applied Biostatistics
+**Columbia University Mailman School of Public Health** 
+
+Master of Public Health | Sociomedical Sciences, Certificate in Applied Biostatistics 
+
+May 2021
 						       
 **University of Maryland - College Park**	
 
 Bachelor of Arts | Major in Psychology
 
-## Professional Experience
+May 2014
+
+<hr>
+
+## *Professional Experience*
 
 **Global Mental Health Program | WHO-Columbia Collaborating Center**
 
@@ -54,6 +62,8 @@ May 2016 – January 2017
 
 Sep. 2014 – Jan. 2016
 
-## Interests
+<hr>
+
+## *Interests*
 
 Running, Reading Sci-Fi/Fantasy, Playing a Bit of Guitar (Not Well)

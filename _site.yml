@@ -14,6 +14,8 @@ navbar:
   left: 
     - text: "About"
       href: about.html
+    - text: "Research"
+      href: pubs.html
 output:
   html_document:
-    theme: yeti
+    theme: sandstone

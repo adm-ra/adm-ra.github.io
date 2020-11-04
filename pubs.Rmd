@@ -1,0 +1,19 @@
+---
+title: "**Posters and Publications**"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<hr>
+
+Norful, A. A., He, Y., Rosenfeld, A., & Abraham, C. (In Press). Alleviation of primary care provider burnout through co-management care delivery models. Journal of Nursing Regulation. [Abstract]
+
+**Rosenfeld AZ\* **, Aguinaldo LD, Wiersma, EA Nugent NR. (2018). Adolescent Predictions of Suicidal Thoughts and Behaviors and Length of Stay. \*Presenter. Poster presented at the 21st Annual Mind Brain Research Day on Tuesday, March 27, 2018.
+
+**Rosenfeld, AZ.**, Pendse, S., & Nugent, N. R. (2017). How Mobile Health Applications Can Help Treat Depression. The Brown University Child and Adolescent Behavior Letter, 33(9), 1-6. https://doi.org/10.1002/cbl.30236
+
+**Rosenfeld AZ\* **, Aguinaldo LD, Brick LA, Forkus SR, Nugent NR. (2017). Examining the Relationship Between Alcohol and Marijuana Use, Sensitivity to Reward, and Suicidal Thoughts and Behaviors (STBs). *Presenter. Poster presented at 25th Annual Hospital Research Celebration, Rhode Island Hospital, October 31, 2017, Providence, RI 
+
+Clementi, M.A., Suway, J., **Rosenfeld AZ.**, Fox, N.A., Bar-Haim, Y., Pine, D.S., & Britton, J.C. (2011, September). Attention training away from threat: the impact on stress reactivity. Poster presented at the 2011 NIMH Division of Intramural Research Programs Scientific Retreat, Lancaster, PA.

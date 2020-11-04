@@ -1,18 +1,25 @@
 ---
-title: "Adam Rosenfeld"
+title: "**Adam Rosenfeld**"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# Welcome! 
+<hr>
+
+# *Welcome!*
+
+<p> <b> Grad Student, Teaching Assistant, Research Assistant </b> </p> 
+<p> (All-around busy person these days) </p> 
 
 <p align="center">
 <img align="center" src="images/professional.png" style="width:35%">
 </p>
 
-## Currently Busy With
+<hr>
+
+## *Currently Busy With*
 
 The second year of my Master of Public Health degree at Columbia University Mailman School of Public Health.
 
@@ -20,23 +27,27 @@ The second year of my Master of Public Health degree at Columbia University Mail
 
 I also work part-time as a Graduate Research Assistant and Graduate Teaching Assistant (feel free to check out my resume on my "About" page).
 
-## Current Interests
+<hr>
 
-#### Research/Academic
+## *Current Interests*
+
+#### *Research/Academic*
 
 1. Statistical Analysis/Data Science
 2. Mental health and applications of behavioral psychology
 3. Healthcare policy
 
-#### Personal
+#### *Personal*
 
 1. Breaking a 21-minute 5k
 2. Reading at least 3 more books before 2021
 3. Getting better at R (and hopefully picking up Python soon)
 
-## Currently Living In
+<hr>
 
-New York City
+## *Currently Living In*
+
+New York City!
 
 <img align="center" src="images/nyc.jpeg" style="width:100%">
 
