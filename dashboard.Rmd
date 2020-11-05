@@ -19,10 +19,6 @@ library(plotly)
 
 ```{r}
 data("instacart")
-
-instacart = 
-  instacart %>% 
-  slice_sample(n = 10000)
 ```
 
 Column {data-width=650}
@@ -56,14 +52,14 @@ Column {data-width=350}
 yord_title = list(title = "Order Number")
 xord_title = list(title = "Days Since Prior Order")
 
-produce_time = 
+pet_time = 
   instacart %>% 
-  filter(department == "produce") %>%
-  group_by(order_hour_of_day) %>% 
-  plot_ly(x = ~days_since_prior_order, y = ~order_number, color = ~aisle, colors = "viridis", type = "scatter") %>% 
-   layout(yaxis = yord_title, xaxis = xord_title)
+  filter(department == "pets") %>%
+  plot_ly(x = ~days_since_prior_order, y = ~order_number, 
+          color = ~aisle, colors = "viridis", type = "scatter", symbol = ~aisle) %>% 
+  layout(yaxis = yord_title, xaxis = xord_title) 
 
-produce_time
+pet_time
 ```
 
 ### Chart C
