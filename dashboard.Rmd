@@ -32,19 +32,19 @@ Column {data-width=650}
 
 ```{r}
 yax_title = list(title = "Number of Purchases")
-xax_title = list(title = "Instacart Departments")
+xax_title = list(title = "Types of Snacks")
 
-purchase_bar = 
+snack_bar = 
   instacart %>%  
-  filter(department != "missing") %>% 
-  count(department) %>% 
+  filter(department == "snacks") %>% 
+  count(aisle) %>% 
   mutate(
-    department = fct_reorder(department, n)
+    aisle = fct_reorder(aisle, n)
     ) %>% 
-  plot_ly(x = ~department, y = ~n, color = ~department, colors = "viridis", type = "bar") %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, colors = "viridis", type = "bar") %>% 
   layout(yaxis = yax_title, xaxis = xax_title)
 
-purchase_bar
+snack_bar
 ```
 
 Column {data-width=350}
@@ -56,13 +56,14 @@ Column {data-width=350}
 yord_title = list(title = "Order Number")
 xord_title = list(title = "Days Since Prior Order")
 
-time_order = 
-  instacart %>%  
+produce_time = 
+  instacart %>% 
+  filter(department == "produce") %>%
   group_by(order_hour_of_day) %>% 
-  plot_ly(x = ~days_since_prior_order, y = ~order_number, color = ~department, colors = "viridis", type = "scatter") %>% 
+  plot_ly(x = ~days_since_prior_order, y = ~order_number, color = ~aisle, colors = "viridis", type = "scatter") %>% 
    layout(yaxis = yord_title, xaxis = xord_title)
 
-time_order
+produce_time
 ```
 
 ### Chart C
@@ -71,8 +72,9 @@ time_order
 y_title = list(title = "Number of Orders")
 x_title = list(title = "Hour of the Day (Military Time)")
 
-hour_track = 
-  instacart %>%  
+snack_hour = 
+  instacart %>% 
+  filter(department == "snacks") %>% 
   group_by(order_hour_of_day) %>%
   plot_ly(
     x = ~order_hour_of_day, 
@@ -81,6 +83,7 @@ hour_track =
     ) %>% 
    layout(yaxis = y_title, xaxis = x_title)
 
-hour_track
+snack_hour
 ```
+
 
