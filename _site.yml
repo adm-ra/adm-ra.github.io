@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   right:
     - text: "Plotly"
-      href: plotly.html
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<adam.r@columbia.edu>
     - icon: fa-github fa-lg

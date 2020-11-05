@@ -1,23 +1,23 @@
 ---
-title: "Plotly"
+title: "Dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 editor_options: 
   chunk_output_type: console
 ---
 
-# Examples of Plotly
-
-```{r include = FALSE}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(ggplot2)
 library(p8105.datasets)
 library(plotly)
 ```
 
-```{r message = FALSE, include = FALSE}
+```{r}
 data("instacart")
 
 instacart = 
@@ -25,8 +25,12 @@ instacart =
   slice_sample(n = 1000)
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-```{r warning = FALSE}
+### Chart A
+
+```{r}
 yax_title = list(title = "Number of Purchases")
 xax_title = list(title = "Instacart Departments")
 
@@ -43,7 +47,12 @@ purchase_bar =
 purchase_bar
 ```
 
-```{r message = FALSE}
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
 yord_title = list(title = "Order Number")
 xord_title = list(title = "Days Since Prior Order")
 
@@ -55,6 +64,8 @@ time_order =
 
 time_order
 ```
+
+### Chart C
 
 ```{r}
 
