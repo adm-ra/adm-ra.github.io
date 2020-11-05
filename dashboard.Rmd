@@ -22,7 +22,7 @@ data("instacart")
 
 instacart = 
   instacart %>% 
-  slice_sample(n = 1000)
+  slice_sample(n = 10000)
 ```
 
 Column {data-width=650}
@@ -68,6 +68,19 @@ time_order
 ### Chart C
 
 ```{r}
+y_title = list(title = "Number of Orders")
+x_title = list(title = "Hour of the Day (Military Time)")
 
+hour_track = 
+  instacart %>%  
+  group_by(order_hour_of_day) %>%
+  plot_ly(
+    x = ~order_hour_of_day, 
+    colors = "viridis", 
+    type = "histogram"
+    ) %>% 
+   layout(yaxis = y_title, xaxis = x_title)
+
+hour_track
 ```
 

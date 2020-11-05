@@ -8,6 +8,8 @@ navbar:
     - text: "Research"
       href: pubs.html
     - text: "Plotly"
+      href: plotly.html
+    - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<adam.r@columbia.edu>
