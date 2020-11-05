@@ -8,7 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Examples of Plotly
+## Instacart Data Plots
 
 ```{r include = FALSE}
 library(tidyverse)
@@ -21,6 +21,7 @@ library(plotly)
 data("instacart")
 ```
 
+## Plot 1: Snack Purchases
 
 ```{r warning = FALSE}
 yax_title = list(title = "Number of Purchases")
@@ -39,6 +40,8 @@ snack_bar =
 snack_bar
 ```
 
+## Plot 2: Pet Food Order Information
+
 ```{r message = FALSE}
 yord_title = list(title = "Order Number")
 xord_title = list(title = "Days Since Prior Order")
@@ -52,6 +55,8 @@ pet_time =
 
 pet_time
 ```
+
+## Plot 3: Snack Orders by Time
 
 ```{r}
 y_title = list(title = "Number of Snack Orders")
