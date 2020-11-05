@@ -54,7 +54,7 @@ produce_time
 ```
 
 ```{r}
-y_title = list(title = "Number of Orders")
+y_title = list(title = "Number of Snack Orders")
 x_title = list(title = "Hour of the Day (Military Time)")
 
 snack_hour = 
