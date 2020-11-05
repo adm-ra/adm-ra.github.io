@@ -3,6 +3,10 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: pubs.html
     - text: "Plotly"
       href: dashboard.html
     - icon: fa-envelope fa-lg
@@ -11,11 +15,6 @@ navbar:
       href: http://github.com/adm-ra/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/adam-rosenfeld/
-  left: 
-    - text: "About"
-      href: about.html
-    - text: "Research"
-      href: pubs.html
 output:
   html_document:
     theme: sandstone
